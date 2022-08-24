@@ -1,0 +1,30 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  height: 4rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+nav.navLinks {
+  margin-right: 3rem;
+}
+
+a.navlink{
+  margin-right: 1rem;
+}
+
