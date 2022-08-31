@@ -28,3 +28,12 @@ a.navlink{
   margin-right: 1rem;
 }
 
+section.banner {
+  background-color: gray;
+}
+
+div.bannerPicContainer {
+  width: 60%;
+  direction: rtl;
+}
+
