@@ -30,10 +30,27 @@ a.navlink{
 
 section.banner {
   background-color: gray;
+  display: flex; 
 }
 
 div.bannerPicContainer {
   width: 60%;
-  direction: rtl;
+  display:inline-flex;
+  
+}
+
+img.bannerPic {
+  margin: 2rem 1.5rem;
+  overflow: auto;
+}
+
+div.bannerTitleContainer {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+}
+
+h1.bannerTitle {
+  
 }
 
