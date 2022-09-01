@@ -45,12 +45,29 @@ img.bannerPic {
 }
 
 div.bannerTitleContainer {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 2rem;
   font-size: 2.5rem;
+
 }
 
 h1.bannerTitle {
-  
+  margin: 0;
+  color: rgb(29,29,30);
+}
+
+p.bannerPara {
+  margin: 1.5rem 0;
+  color:rgb(29,29,30);
+}
+
+button.bannerButton {
+  width: 30rem;
+  height: 4rem;
+  background-color: darkslategray;
+  font-size: 1.25rem;
+  color: whitesmoke;
 }
 
