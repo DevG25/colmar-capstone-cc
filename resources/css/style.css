@@ -71,3 +71,42 @@ button.bannerButton {
   color: whitesmoke;
 }
 
+section.banner2 {
+  display: inline-flex;
+}
+
+div.banner2Main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.bannerPic2Container {
+  display: flex;
+  width: 100%;
+}
+
+img.bannerPic2 {
+  width: 100%;
+}
+
+div.banner2Aside {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.asideCard1 {
+  display: flex;
+}
+
+img.card1Pic {
+  width: 35%;
+  height: auto;
+}
+
+div.card1Info {
+  width: 65%;
+  height: auto;
+}
+
